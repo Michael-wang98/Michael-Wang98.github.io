@@ -3,11 +3,3 @@ Link to github: [github.com/Michael-Wang98](https://github.com/Michael-Wang98/)
 Link to [Resume](/Documents/Resume.pdf)
 
 [![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://mattermost.com)
-
-### 📺 Latest YouTube Videos
-
-<!-- YOUTUBE:START -->
-
-<!-- YOUTUBE:END -->
-
-➡️ [more videos...](https://youtube.com/codestackr)
