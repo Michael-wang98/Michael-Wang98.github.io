@@ -11,7 +11,7 @@
       z-index: 1;
       top: 0;
       right: 0;
-      background-color: #111;
+      background-color: #3367D6;
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
@@ -33,9 +33,14 @@
     .sidebar .closebtn {
       position: absolute;
       top: 0;
-      right: 25px;
+      right: 12px;
+      color: white;
       font-size: 36px;
       margin-left: 50px;
+    }
+
+    .sidebar .closebtn:hover {
+      color: #DDE6E8;
     }
 
     .openbtn {
@@ -45,6 +50,9 @@
       color: white;
       padding: 10px 15px;
       border: none;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
     }
 
     .openbtn:hover {
@@ -66,19 +74,18 @@
 <body>
   <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <iframe width="350" height="545" frameborder="0"
+    src="https://qingyu.rsvp.ai/chat/webchat?botid=1006144&botappid=40288a3875fd0d8b0176439df5131109&sharetoken=83be28ba-d2e1-43c8-bb9d-f5c897ffa152"></iframe>
   </div>
+
   <div id="main">
-    <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+    <button class="openbtn" onclick="openNav()">Open Sidebar</button>  
   </div>
 
   <script>
   function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
-    document.getElementById("main").style.marginRight = "250px";
+    document.getElementById("mySidebar").style.width = "350px";
+    document.getElementById("main").style.marginRight = "350px";
   }
 
   function closeNav() {
