@@ -146,8 +146,8 @@ th, td {
         position: absolute;
         bottom: 550px;
         right: 12px;
-        color: white;
-        background-color: #2a64d1;
+        color: #2a64d1;
+        background-color: white;
         font-size: 36px;
     }
     
@@ -165,6 +165,7 @@ th, td {
         position: fixed;
         bottom: 10px;
         right: 10px;
+	background-image: url('https://www.w3schools.com/images/lamp.jpg');
     }
     
     .openbtn:hover {
