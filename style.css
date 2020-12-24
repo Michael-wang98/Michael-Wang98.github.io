@@ -165,7 +165,7 @@ th, td {
         position: fixed;
         bottom: 10px;
         right: 10px;
-	background: url("Misc/flame.jpg");
+	background: url("/Misc/flame.jpg");
     }
     
     .openbtn:hover {
